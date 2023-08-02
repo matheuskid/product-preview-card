@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Fraunces";
+  src: url("assets/fonts/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf") format("woff")
+}
+
+@font-face {
+  font-family: "Monstserrat";
+  src: url("assets/fonts/Montserrat-VariableFont_wght.ttf") format("woff")
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Monstserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  width: 22em;
+  height: 14em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
