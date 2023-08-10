@@ -25,7 +25,7 @@ body {
 .box {
   background-color: white;
   border-radius: 10px;
-  width: 36em;
+  width: 40em;
   height: 32.12em;
   display: flex;
   justify-content: space-evenly;
@@ -33,30 +33,38 @@ body {
 }
 
 .image {
-  width: 100%;
+  width: 20em;
   height: 32.12em;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
 }
-
+  
 .image img {
+  height: 100%;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  object-fit: fill;
+  overflow: hidden;
 }
 
 .content {
-  width: 100%;
+  width: 20em;
   height: 32.12em;
-  margin-left: 1.5em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  padding-left: 1.5em;
 }
 
 .content h3 {
+  font-size: 1em;
+  color: gray;
   font-weight: 500;
 }
 
 .content h1 {
   font-family: "Fraunces", serif;
-  font-weight: 800;
+  font-weight: 700;
 }
