@@ -9,6 +9,7 @@
 }
 
 body {
+  background-color: hsl(30, 38%, 92%);
   width: 100vw;
   height: 100vh;
   font-family: "Monstserrat", sans-serif;
@@ -22,6 +23,8 @@ body {
 }
 
 .box {
+  background-color: white;
+  border-radius: 10px;
   width: 36em;
   height: 32.12em;
   display: flex;
@@ -34,7 +37,16 @@ body {
   height: 32.12em;
 }
 
+.image img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
 .content {
-  width: 20em;
+  width: 100%;
   height: 32.12em;
+}
+
+.content h1 {
+  font-family: "Fraunces", serif;
 }
