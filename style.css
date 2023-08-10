@@ -15,6 +15,7 @@ body {
   font-family: "Monstserrat", sans-serif;
   font-weight: 500;
   font-size: 14px;
+  color: hsl(228, 12%, 48%);
   margin: 0;
   padding: 0;
   display: flex;
@@ -55,16 +56,18 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding-left: 1.5em;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
-.content h3 {
-  font-size: 1em;
-  color: gray;
+.content .product {
+  font-size: 0.9em;
   font-weight: 500;
 }
 
 .content h1 {
+  font-size: 2.2em;
   font-family: "Fraunces", serif;
   font-weight: 700;
+  color: hsl(212, 21%, 14%)
 }
