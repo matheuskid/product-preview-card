@@ -50,7 +50,6 @@ body {
 }
 
 .content {
-  width: 50%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -82,7 +81,6 @@ body {
   width: 90%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .price-green {
@@ -93,6 +91,7 @@ body {
 }
 
 .price-scratched {
+  margin-left: 1.5em;
   text-decoration: line-through;
 }
 
@@ -113,3 +112,30 @@ body {
 .btn img {
   margin-right: 0.7em;
 }
+
+@media only screen and (max-width: 566px) {
+  .box {
+    width: 24em;
+    height: 95%;
+    flex-direction: column;
+    
+  }
+
+  .left-image {
+    height: 45%;
+    width: 100%;  
+  }
+
+  .left-image img {
+    height: 100%;
+    width: 100%;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+  }
+
+  .content {
+    width: auto;
+  }
+}
+
