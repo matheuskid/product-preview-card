@@ -23,7 +23,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
-- See hover and focus states for interactive elements -> workin on it
+- See hover and focus states for interactive elements
 
 ### Screenshot
 
@@ -49,7 +49,7 @@ Just like the other challenge (results summary), it was just the basics of flexb
 ### Continued development
 
 Things that needed to be done:
- - Responsive design (working)
+ all done (I think :D)
 
 ## Author
 
